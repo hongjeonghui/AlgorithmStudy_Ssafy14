@@ -1,0 +1,4 @@
+a = input()
+name = a
+if a == name:
+  print(name+'??!')
