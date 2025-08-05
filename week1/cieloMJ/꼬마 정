@@ -1,0 +1,6 @@
+A = list(map(int, input().split()))
+
+k = 0
+for a in A:
+    k += a
+print(k)
