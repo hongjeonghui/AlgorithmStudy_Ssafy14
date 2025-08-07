@@ -1,0 +1,15 @@
+a= int(input())
+b= int(input())
+
+if a<0 and b<0:
+    print('3')
+elif a<0 and b>0:
+    print('2')
+elif a>0 and b<0:
+    print('4')
+else:
+    print('1')
+
+
+# input()으로 받았을 때 TypeError가 뜸 
+# int 정수형으로 받아야 함
