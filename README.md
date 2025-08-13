@@ -33,6 +33,12 @@
           <sub><b>민지</b></sub>
         </a>
       </td>
+      <td align="center">
+        <a href="https://github.com/kkaemong">
+          <img src="https://github.com/kkaemong.png" width="100"/><br>
+          <sub><b>준영</b></sub>
+        </a>
+      </td>
     </tr>
   </table>
 
