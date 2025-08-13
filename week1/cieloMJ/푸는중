@@ -1,0 +1,19 @@
+import sys
+sys.stdin = open('input.txt', 'r')
+
+# N, K 값 나누기
+N, K = map(int, input().split())
+
+# S, Y 값 배열로 묶기
+matrix_std = []
+for num in range(N):
+    std_list = list(map(int, input().split()))
+    matrix_std.append(std_list)
+
+# 학년별로 묶기
+std_dict = {}
+for S, Y in matrix_std:
+    if Y not in std_dict:
+        std_dict[Y] = []
+    std_dict[Y].append(S)
+
