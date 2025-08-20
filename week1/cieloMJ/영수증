@@ -1,0 +1,12 @@
+X = int(input())
+N = int(input())
+
+sum_price = 0
+for i in range(N):
+    a, b = map(int, input().split())
+    sum_price += a*b
+
+if X == sum_price:
+    print('Yes')
+else:
+    print('No')
