@@ -1,0 +1,14 @@
+import sys
+sys.stdin = open('input.txt')
+
+T = int(sys.stdin.readline()) # 5
+for i in range(T):
+    a, b = map(int, sys.stdin.readline().split())
+    print(a + b)
+
+# T = int(input())  # 테스트케이스
+# for i in range(T):
+#     a, b = map(int, input().split())
+#     print(a + b)
+
+# https://yeomss.tistory.com/120
