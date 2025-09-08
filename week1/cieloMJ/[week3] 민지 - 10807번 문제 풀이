@@ -1,0 +1,9 @@
+#import sys
+#sys.stdin = open('input.txt', 'r')
+
+N = int(input())
+arr = list(map(int, input().split()))
+V = int(input())
+
+b = arr.count(V)
+print(b)
