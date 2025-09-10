@@ -1,0 +1,18 @@
+import math
+import sys
+
+X = int(sys.stdin.readline())
+n= math.ceil(((-1)+math.sqrt(8*X+1))/2)
+start = ((n*(n-1))//2)+1
+end = (n*(n+1))//2
+
+r = X - start + 1
+
+if n%2 == 0:
+    a= r
+    b = n-r+1
+else:
+    a = n-r+1
+    b = r
+
+print(f'{a}/{b}')
