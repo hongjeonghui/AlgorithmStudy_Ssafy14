@@ -1,0 +1,9 @@
+import sys
+A, B, V = map(int, sys.stdin.readline().split())
+
+result = (V-A)//(A-B)
+test = (V-A)%(A-B)
+
+if test != 0:
+    print(result + 2)
+else: print(result+1)
